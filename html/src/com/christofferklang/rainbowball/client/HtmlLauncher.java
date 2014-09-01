@@ -3,7 +3,7 @@ package com.christofferklang.rainbowball.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.christofferklang.rainbowball.RainbowBallGame;
+import com.christofferklang.rainbowball.RainbowBallApplication;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener getApplicationListener () {
-                return new RainbowBallGame();
+                return new RainbowBallApplication();
         }
 }

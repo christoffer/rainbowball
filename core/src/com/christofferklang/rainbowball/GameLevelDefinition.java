@@ -1,6 +1,6 @@
 package com.christofferklang.rainbowball;
 
-public class GameLevelDefinition {
+class GameLevelDefinition {
     private final int pointsPerHit;
     private final int numPins;
     private final int numColors;
